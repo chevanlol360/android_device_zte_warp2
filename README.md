@@ -1,7 +1,7 @@
 HOW-TO BUILD:
 =============
 
-**This short guide assumes you're on Ubuntu 11.04 or above**
+**This short guide assumes you're on Ubuntu 11.04 or above** and have your build enviroment setup already.
 
 Getting the (right) source
 --------------------------
@@ -46,12 +46,12 @@ Then cd to the kernel directory:
 
 	$ mkdir zte
 
-	$ git clone https://github.com/playfulgod/kernel_ate_warp2.git warp2
+	$ git clone https://github.com/playfulgod/kernel_zte_warp2.git warp2
 
 Extract necessary binaries and proprietary files 
 ------------------------------------------------
 
-We will need to reuse some proprietary files from the stock ROM:
+We will need to reuse some proprietary files from the stock ROM (Need to have adb working and connect your phone up to a PC via USB.):
 
     $ cd
     

@@ -60,8 +60,10 @@ BOARD_USES_QCOM_LIBRPC := true
 BOARD_USES_QCOM_GPS := true
 
 # Audio
+TARGET_QCOM_AUDIO_VARIANT := caf
+BOARD_USES_CAF_AUDIO := true
 BOARD_USES_AUDIO_LEGACY := false
-BOARD_USES_ALSA_AUDIO := true
+BOARD_USES_ALSA_AUDIO := false
 
 # Camera
 #COMMON_GLOBAL_CFLAGS += -DICS_CAMERA_BLOB
@@ -145,7 +147,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.allow.mock.location=0
 ADDITIONAL_DEFAULT_PROPERTIES += ro.debuggable=1
 ADDITIONAL_DEFAULT_PROPERTIES += persist.service.adb.enable=1
 ADDITIONAL_DEFAULT_PROPERTIES += ro.config.sec_storage=1
-ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mass_storage,adb
+ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mtp,adb
 
 # USB Mass Storage
 BOARD_CUSTOM_USB_CONTROLLER := ../../device/zte/warp2/UsbController.cpp
@@ -153,5 +155,5 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun0/
 BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun0/file"
 
 # Releasetools
-TARGET_PROVIDES_RELEASETOOLS := true
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/zte/warp2/releasetools/warp2_ota_from_target_files
+#TARGET_PROVIDES_RELEASETOOLS := true
+#TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := ./device/zte/warp2/releasetools/warp2_ota_from_target_files

@@ -1,5 +1,5 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-$(call inherit-product, vendor/cm/config/common.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
@@ -285,8 +285,8 @@ PRODUCT_DEVICE := warp2
 
 #### Goo Manager support
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=playfulgod \
-	ro.goo.rom=CM10Sequent \
+    ro.goo.developerid=chevanlol360 \
+	ro.goo.rom=CarbonSequent \
 	ro.goo.version=$(shell date +%Y%m%d )
 
 PRODUCT_COPY_FILES += \

@@ -6,6 +6,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 
+#if we do this after the full_base_telephony is included some of these don't get picked up..
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cdma_warp2
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 $(call inherit-product, device/zte/warp2/device_warp2.mk)
 
 # Screen density is actually considered a locale (since it is taken into account

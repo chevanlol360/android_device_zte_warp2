@@ -37,7 +37,7 @@ Getting My Carbon ZTE Sequent repo
 
 	$ cd zte
 
-	$ git clone https://github.com/chevanlol360/android_device_zte_warp2.git -b cm-10.1 warp2
+	$ git clone https://github.com/chevanlol360/android_device_zte_warp2.git -b carbon warp2
 
 Then cd to the kernel directory:
 

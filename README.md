@@ -1,6 +1,7 @@
 HOW-TO BUILD:
 =============
-
+Created by: PlayFulgod
+Edited By: Chevanlol360 for Building Carbon 4.2.2
 **This short guide assumes you're on Ubuntu 11.04 or above** and have your build enviroment setup already.
 
 Getting the (right) source
@@ -24,13 +25,11 @@ Now initialized the repository and pull the source (with my repos attached):
 
     $ cd ~/android/system/
     
-    $ repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
-    
-    $ repo sync
+    $ repo init -u repo init -u git://github.com/CarbonDev/android.git -b jb2 && repo sync -f
 
 Depending on your connection, this might take awhile.
 
-Getting my ZTE Sequent repo
+Getting My Carbon ZTE Sequent repo
 	
 	$ cd ~/android/system/device/
 
@@ -38,7 +37,7 @@ Getting my ZTE Sequent repo
 
 	$ cd zte
 
-	$ git clone https://github.com/playfulgod/android_device_zte_warp2.git -b cm-10.1 warp2
+	$ git clone https://github.com/chevanlol360/android_device_zte_warp2.git -b cm-10.1 warp2
 
 Then cd to the kernel directory:
 

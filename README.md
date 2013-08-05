@@ -1,7 +1,7 @@
 HOW-TO BUILD:
 =============
-Created by: PlayFulgod
-Edited By: Chevanlol360 for Building Carbon 4.2.2
+**Created by: PlayFulgod
+**Edited By: Chevanlol360 for Building Carbon 4.2.2**
 **This short guide assumes you're on Ubuntu 11.04 or above** and have your build enviroment setup already.
 
 Getting the (right) source

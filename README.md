@@ -60,7 +60,7 @@ We will need to reuse some proprietary files from the stock ROM (Need to have ad
     $ ./extract-files.sh
 
 
-Getting & extracting important building Files/Folders
+Getting & extracting important building Stuff
 -----------------------------------------------------
 Next we Need to Sync one more thing to prevent some simple issues while building carbon
 

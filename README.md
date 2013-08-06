@@ -28,7 +28,7 @@ Now initialized the repository and pull the source (with my repos attached):
     $ repo init -u git://github.com/CarbonDev/android.git -b jb2 && repo sync -f
 
 
-Depending on your connection, this might take awhile.
+Depending on your connection, this might take awhile since we're syncing about 21 gigs of files
 
 Getting my ZTE Sequent repo for building carbon
   

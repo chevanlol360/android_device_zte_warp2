@@ -100,6 +100,6 @@ Installing
 ---------------
 If the build was successful, you can now take the update zip found in out/target/product/warp2/ and flash using a custom recovery. Make sure to grab the latest Gapps to complete the experience.
 
-When you want to rebuild with new changes to the BoardConfig.mk or after syncing to the latest CM src make sure to do the following before you recompile.
+When you want to rebuild with new changes to the BoardConfig.mk or after syncing to the latest Carbon src make sure to do the following before you recompile.
 
     $ make clobber

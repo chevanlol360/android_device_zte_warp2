@@ -66,7 +66,7 @@ Next we Need to Sync one more thing to prevent some simple issues while building
 
     $ cd
     $ cd ~/carbon/device
-    $ git clone https://github.com/chevanlol360/Warp2_2ndcompilation_Files.git
+    $ git clone https://github.com/chevanlol360/Warp2_Compilation_Files.git
 
 Last thing needed before compiling
 
@@ -78,11 +78,12 @@ Building
 -------------
 Once thats done you can start compiling.
 
-Follow the aosp instructions on setting up the build environment. - http://source.android.com/source/download.html
+Follow the aosp instructions on setting up the build environment. - http://source.android.com/source/download.html 
+IF YOU'RE RUNNING THE ZTE WARP SEQUENT PREBUILT LINUX MINT ANDROID BUILDING SYSTEM YOU DONT HAVE TO SET UP THE BUILD ENVIRONMENT YOU CAN SKIP THAT PART
 
 When the environment is setup, we need to grab a copy of Term.apk. This is necessary to build Carbon.
 
-    $ cd ~/carbonvendor/carbon
+    $ cd ~/carbon/vendor/carbon
 
     $ ./get-prebuilts
 

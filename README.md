@@ -80,7 +80,7 @@ Follow the aosp instructions on setting up the build environment. - http://sourc
 
 When the environment is setup, we need to grab a copy of Term.apk. This is necessary to build Carbon.
 
-    $ cd ~/android/system/vendor/carbon
+    $ cd ~/carbonvendor/carbon
 
     $ ./get-prebuilts
 

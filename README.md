@@ -77,15 +77,15 @@ Once thats done you can start compiling.
 
 Follow the aosp instructions on setting up the build environment. - http://source.android.com/source/download.html
 
-When the environment is setup, we need to grab a copy of Term.apk. This is necessary to build CM10.
+When the environment is setup, we need to grab a copy of Term.apk. This is necessary to build Carbon.
 
-    $ cd ~/android/system/vendor/cm
+    $ cd ~/android/system/vendor/carbon
 
     $ ./get-prebuilts
 
 Now, we build (system being your work directory):
 
-    $ cd ~/android/system
+    $ cd ~/carbon
 
 To build for the ZTE Sequent:
     

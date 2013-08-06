@@ -1,6 +1,7 @@
 ## RIL
 bin/qmuxd
 bin/rild
+lib/libaudioalsa.so
 lib/libnv.so
 lib/liboncrpc.so
 lib/libreference-ril.so
